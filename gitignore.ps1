@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "https://www.toptal.com/developers/gitignore/api/$($args -join ',')" | Select-Object -ExpandProperty Content
